@@ -12,9 +12,9 @@ class FlexDimensionsBasics extends Component {
 					alignItems: 'stretch'
 				}}>
 				<View
-					style={{ width: 50, height: 50, backgroundColor: 'powderblue' }}
+					style={{ width: 100, height: 100, backgroundColor: 'powderblue' }}
 				/>
-				<View style={{ height: 50, backgroundColor: 'skyblue' }} />
+				<View style={{ width: 100, height: 50, backgroundColor: 'skyblue' }} />
 				<View style={{ height: 100, backgroundColor: 'steelblue' }} />
 			</View>
 		);
